@@ -1,0 +1,103 @@
+body {
+  background: #202124;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-div {
+  border: 1px solid #5f6368;
+  border-radius: 50px;
+  display: flex;
+  width: 584px;
+  max-width: 584px;
+  height: 44px;
+}
+
+.google-image {
+  padding-bottom: 30px;
+}
+
+.input-text {
+  background: transparent;
+  display: flex;
+  flex: 100%;
+  border: none;
+}
+
+.menu {
+  fill: currentColor;
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 235px;
+}
+
+body header {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #bdc1c6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header a {
+  margin-right: inherit;
+}
+
+header div {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+header .first {
+  justify-content: flex-start;
+}
+div button {
+  background-color: #303134;
+  border: 1px solid #303134;
+  color: white;
+  margin: 11px 4px 0 4px;
+  padding: 0px 16px 0px 16px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+header div a {
+  margin: 5px 10px 0 15px;
+}
+
+.search-button {
+  padding-top: 18px;
+}
+
+.img-a {
+  padding-right: 15px;
+}
+
+header svg {
+  margin-right: 15px;
+  margin-top: 2px;
+}
+
+footer div {
+  padding: 100%;
+}
